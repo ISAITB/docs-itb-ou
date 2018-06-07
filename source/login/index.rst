@@ -3,6 +3,8 @@
 Log in
 ======
 
+HELLO BASIC USER
+
 Before carrying out any action on the test bed you need to log in. The login screen requires you to provide:
 
 * Your account's **email address**.
