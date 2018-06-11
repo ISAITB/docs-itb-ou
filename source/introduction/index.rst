@@ -134,7 +134,7 @@ Organisation
 ~~~~~~~~~~~~
 
 An **organisation** is the concept that maps to a member of the project who is using the test bed to test conformance. Each user belongs to
-an organisation and its via the organisation that a a user can execute tests, inspect results and extract reports. An organisation can have
+an organisation and its via the organisation that a user can execute tests, inspect results and extract reports. An organisation can have
 two types of users:
 
 * A **user**, who is able to execute tests and inspect results.
