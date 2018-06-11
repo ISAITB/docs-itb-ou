@@ -147,7 +147,7 @@ System
 ~~~~~~
 
 A **system** is related to an organisation and represents the actual software component that will be tested. In simple cases an organisation 
-will have a single system and these can be conceptually interchangeable. It is often the case however that a single organisation defines 
+will have a single system and the terms "organisation" and "system" may be conceptually interchangeable. It is often the case however that a single organisation defines 
 multiple systems, each with its own specification conformance needs and testing history. The system in the test bed is actually the point 
 where configuration for your software component is introduced and it is the system that is selected when defining the specifications you aim 
 to test for.
