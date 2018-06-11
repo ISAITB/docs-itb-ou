@@ -236,6 +236,9 @@ named "EU message exchange" used within the EU whereby Member State endpoint sys
 message types ("Message1", "Message2" and "Message3") each with a specific syntax and content rules. Member States can optionally support each message type
 but if they do they need to ensure that they can successfully use them when interacting with the EU portal.
 
+.. figure:: example.png
+  :align: center
+
 In this case the previously discussed test bed concepts could be mapped as follows:
 
 * **Domain:** This a logical concept to group together specifications. It can be called "EU message exchange".
