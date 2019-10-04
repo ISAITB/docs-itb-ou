@@ -105,8 +105,7 @@ Finally, note that the complete **Configuration parameters** section may be miss
 before executing its tests.
 
 .. note::
-    **Editing configuration parameters:** Configuration parameters apply for the specific system across all its conformance statements. As such, 
-    editing them is reserved to your administrator.
+    **Editing configuration parameters:** Editing your conformance statement's configuration parameters is reserved to administrators.
 
 .. _manage_your_conformance_statements__view_a_conformance_statements_details__tests:
 
@@ -206,7 +205,17 @@ At any given time you can review the information of your selected system by clic
 .. figure:: ../screenshots/conformance_statements_systeminfo.PNG
   :align: center
 
-In this screen you can see the **short** and **full name** of the system, its **description** and its **version** number.
+In this screen you can see the **short** and **full name** of the system, its **description** and its **version** number. If your 
+community administrator has foreseen additional properties for systems you will also see here the **Show properties** checkbox.
+Clicking this will expand to also display the current system's additional information.
+
+.. figure:: ../screenshots/conformance_statements_systeminfo_properties.PNG
+  :align: center
+
+The displayed properties can be simple texts, secret values (e.g. passwords) or files and, if supplied by your community 
+administrator, will display a help tooltip to understand their meaning. Only administrators may update these properties
+but you can view their configured values or download their linked files. Required properties are marked with an asterisk
+and will need to be completed by an administrator before launching any tests for this system.
 
 .. note::
     **Editing a system's information:** The information displayed on this screen is read-only. Editing the system's information is reserved 
