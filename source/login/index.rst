@@ -382,6 +382,6 @@ At the bottom of the screen is where you find the screen's **footer**. This disp
 * A link to **find out more** information on the test bed.
 * The test bed's **version** number which can also be clicked to view its release notes.
 
-.. _ISA² test bed instance: https://www.itb.ec.europa.eu/itb
+.. _DIGIT test bed instance: https://www.itb.ec.europa.eu/itb
 .. _EU Login user guide: https://www.itb.ec.europa.eu/docs/guides/latest/usingEULogin/
 .. _step-by-step guide: https://www.itb.ec.europa.eu/docs/guides/latest/migratingToEULogin/
