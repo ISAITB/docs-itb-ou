@@ -5,7 +5,7 @@ Execute tests
 
 Executing conformance tests for your system is the reason you are using the test bed. Considering
 that test cases are linked to your system by means of conformance statements, the first step before
-executing a test is to visit a conformance statement's detail screen (see :ref:`manage_your_conformance_statements__view_a_conformance_statements_details`).
+executing a test is to visit a :ref:`conformance statement's detail screen <manage_your_conformance_statements__view_a_conformance_statements_details>`.
 This screen is the place where you input required configuration and are provided with the controls to execute one or more tests.
 
 .. _execute_tests__provide_your_systems_configuration:
@@ -18,11 +18,13 @@ configuration parameters before executing tests. If for example test cases requi
 sends messages to your system, it is likely that you need to inform the test bed on how to do so.
 
 Providing and reviewing the configuration for your system is done through the **Configuration parameters** tab of
-the conformance statement detail page (see :ref:`manage_your_conformance_statements__view_a_conformance_statements_details__endpoints`).
+the :ref:`conformance statement detail page <manage_your_conformance_statements__view_a_conformance_statements_details__endpoints>`.
+In addition, you may need to provide inputs for mandatory :ref:`organisation-level <manage_organisation>` and 
+:ref:`system-level <manage_organisation__systems>` properties that apply to your organisation.
 
 Once all required configuration is provided you can choose to execute one or more test cases 
-through the conformance statement details' **Conformance tests** tab (see :ref:`manage_your_conformance_statements__view_a_conformance_statements_details__tests`). The test execution
-process starts by clicking one of the available **Play** buttons. In short, you can either execute a
+through the conformance statement details' :ref:`Conformance tests tab <manage_your_conformance_statements__view_a_conformance_statements_details__tests>`.
+The test execution process starts by clicking one of the available **Play** buttons. In short, you can either execute a
 specific test case or a complete test suite and choose whether the test sessions will be launched
 in the background or in interactive mode (the default). Furthermore, for background test sessions you may choose whether these will be executed 
 in parallel or sequentially.
@@ -263,7 +265,7 @@ a green tick or red cross (for success or failure respectively). This applies fo
 
 .. figure:: ../screenshots/test_execution_execute_step_result_controls.PNG
   :align: center
-  :scale: 50%
+  :scale: 70%
 
 Apart from serving as an additional indication on the success or failure of the test step, these controls provide further details on the step's
 results. Clicking them triggers a popup that shows the different information elements that can be viewed inline or opened in
@@ -301,7 +303,7 @@ The errors, warnings and information messages displayed are contained in a **det
 severity level. This summary title is also clickable, to allow the listed details to be collapsed or expanded if already collapsed. Collapsing the
 displayed details could be useful in case they are numerous, providing as such easier access to the popup's additional controls.
 
-The results of the test step can also be exported as a **test step report** (in PDF and XML format). This is made available through the **Export as PDF** and **Export as XML** buttons that trigger the 
+The results of the test step can also be exported as a **test step report** (in PDF and XML format). This is made available through the **Export report as PDF** and **Export report as XML** buttons that trigger the 
 generation and download of the step report in the desired format. The following example represents such a report in PDF.
 
 .. figure:: ../screenshots/test_execution_test_step_report.PNG

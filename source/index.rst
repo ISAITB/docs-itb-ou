@@ -14,7 +14,8 @@ adopted by the test bed and best practices while defining or executing tests as 
 
    introduction/index
    login/index
-   manageSystems/index
+   navigate/index
+   manageOrganisation/index
    manageConformanceStatements/index
    executeTests/index
    testHistory/index
