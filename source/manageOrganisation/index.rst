@@ -53,7 +53,7 @@ Your organisation's systems are presented in a table that displays for each syst
 * A **version** number.
 
 To view the details of a specific system you can click its row in the table. Doing so will present you with its detail page
-where you can see the **short** and **full name** of the system, its **description** and its **version** number. At the you
+where you can see the **short** and **full name** of the system, its **description** and its **version** number. At the bottom you
 also see the unique **API key** for the system that can be clicked to copy it to the clipboard. This API key can be used in
 case the test bed's :ref:`REST API <api>` is enabled, or for `messaging in test cases <https://www.itb.ec.europa.eu/docs/tdl/latest/handlers/index.html#built-in-messaging-handlers>`_.
 
