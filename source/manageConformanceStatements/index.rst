@@ -366,21 +366,18 @@ Note that the documentation on test cases is also available to consult during th
 Configuration parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Alongside the **Conformance tests** tab you are presented with the **Configuration parameters** tab. This includes any necessary configuration at the level of the
-specific conformance statement that you are expected to provide.
+Alongside the **Conformance tests** tab you are presented with the **Configuration parameters** tab. This includes configuration for the
+specific conformance statement that you are expected to provide, as well as your organisation and selected system.
 
 .. figure:: ../screenshots/conformance_statement_details_endpoints.PNG
   :align: center
 
-Configuration properties are displayed in rows where for each one the following information is presented:
-
-* Whether or not it is **set**.
-* Its **parameter name**, serving as its identifier. This is prefixed with an asterisk if the parameter is mandatory.
-* Its **configured value**, which in case it is a file will be presented as a download link.
-* Its **description** to help understand the parameter's purpose.
+Configuration properties are displayed in panels grouping together **organisation properties**, **system properties** and **statement properties**.
+For each property you see its name, value (which is a download link in case of a file) and a tooltip with a description. Properties that are
+required to be completed before executing tests are marked with an asterisk.
 
 .. note::
-    **Editing configuration parameters:** Editing your conformance statement's configuration parameters is reserved to administrators.
+    **Editing configuration properties:** Editing your configuration properties is reserved to administrators.
 
 .. _manage_your_conformance_statements__view_a_conformance_statements_details__export:
 
