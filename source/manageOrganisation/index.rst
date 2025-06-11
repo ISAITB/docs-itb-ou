@@ -39,7 +39,7 @@ Manage your systems
 -------------------
 
 Selecting the **Systems** tab presents the :ref:`systems <introduction__glossary__system>` defined for your organisation.
-Systems are an important concept in the test bed as they represent the software components you are testing for. Before
+Systems are an important concept in the Test Bed as they represent the software components you are testing for. Before
 proceeding to test anything you will need to have one or more systems that you can use to define conformance statements.
 
 .. figure:: ../screenshots/organisation_systems.png
@@ -55,7 +55,7 @@ Your organisation's systems are presented in a table that displays for each syst
 To view the details of a specific system you can click its row in the table. Doing so will present you with its detail page
 where you can see the **short** and **full name** of the system, its **description** and its **version** number. At the bottom you
 also see the unique **API key** for the system that can be clicked to copy it to the clipboard. This API key can be used in
-case the test bed's :ref:`REST API <api>` is enabled, or for `messaging in test cases <https://www.itb.ec.europa.eu/docs/tdl/latest/handlers/index.html#built-in-messaging-handlers>`_.
+case the Test Bed's :ref:`REST API <api>` is enabled, or for `messaging in test cases <https://www.itb.ec.europa.eu/docs/tdl/latest/handlers/index.html#built-in-messaging-handlers>`_.
 
 .. figure:: ../screenshots/system_details.png
   :align: center
