@@ -9,8 +9,6 @@ are presented with shows you the information relevant to your organisation, spli
 * **Organisation details:** The name (short and full) of your organisation.
 * **Systems**: A tab listing the systems defined for your organisation. Each listed system displays its **name** (short and full),
   **description** and **version**.
-* **Users:** A tab listing your organisation's users. This includes yourself as well as any other 
-  users configured by administrators. For each user the **name**, **username** (or **email** if using an external provider) and **role** are presented.
 * **REST API keys:** A tab, visible if :ref:`testing via REST API<execute_tests_rest>` is enabled by your administrator, allowing you to view and manage the
   keys you need to use it.
 
@@ -36,8 +34,8 @@ administrator, will display a help tooltip to understand their meaning. Only adm
 but you can view their configured values or download their linked files. Required properties are marked with an asterisk
 and will need to be completed by an administrator before your organisation can engage in any tests.
 
-From this point you can review your organisation's :ref:`systems <manage_organisation__systems>`, :ref:`users <manage_organisation__users>`
-and :ref:`REST API keys <manage_organisation__rest>` by clicking on their respective tabs. You may also click the **Manage tests** 
+From this point you can review your organisation's :ref:`systems <manage_organisation__systems>` and
+:ref:`REST API keys <manage_organisation__rest>` by clicking on their respective tabs. You may also click the **Manage tests**
 button to view your organisation's :ref:`conformance statements <manage_your_conformance_statements>`.
 
 .. _manage_organisation__systems:
@@ -84,20 +82,6 @@ and will need to be completed by an administrator before launching any tests for
 .. note::
     **Editing a system's information:** The information displayed on this screen is read-only. Editing the system's information is reserved 
     to your administrator.
-
-.. _manage_organisation__users:
-
-Manage your users
------------------
-
-Selecting the **Users** tab presents your organisation's users. This includes yourself as well as any other
-users defined by administrators.
-
-.. figure:: ../screenshots/organisation_users.png
-  :align: center
-
-Each user is displayed in a row presenting her **name**, **email** and **role**. Your entry in the table is
-highlighted with a "(You)" displayed at the end of your name.
 
 .. _manage_organisation__rest:
 

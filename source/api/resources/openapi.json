@@ -6,7 +6,7 @@
     "contact": {
       "email": "DIGIT-ITB@ec.europa.eu"
     },
-    "version": "1.28.4"
+    "version": "1.29.0"
   },
   "externalDocs": {
     "description": "Test Bed user guide",
@@ -3396,6 +3396,10 @@
           },
           "maximumWaitTime": {
             "description": "In case the call should wait for the test sessions to complete, this is the maximum time (in milliseconds) to wait before returning.",
+            "type": "number"
+          },
+          "executionDelay": {
+            "description": "An optional delay (in milliseconds) before executing tests. This delay is applied between each test execution regardless of whether execution is sequential or parallel. Providing a negative value or zero is equivalent to no delay being applied.",
             "type": "number"
           },
           "testSuite": {
