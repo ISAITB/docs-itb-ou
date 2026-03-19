@@ -305,8 +305,8 @@ To complete the registration form provide the following information:
   that will predefine your organisation's systems and conformance statements. This will not be displayed if no such 
   templates are available.
 
-Depending on the community's configuration, you may also be provided the option to join an existing organisation as opposed
-to registering a new one. Moreover, joining an existing organisation may also be the only option available. If joining
+Depending on the community's configuration, you may also be provided the option to join an **existing organisation** or
+the community's **default organisation**, as opposed to registering a new one. Moreover, joining such options may also be the only option available. If joining
 an existing organisation is enabled, you will be prompted to provide the organisation's **registration token**. This token
 acts as a key to uniquely identify the organisation and will need to be shared to you by an administrator.
 
